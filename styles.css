@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font: 'Roboto';
+}
+
+.header{
+  background-color: #1F2937;
+}
+.top-header{
+  display: flex;
+
+}
+.top-header .logo{
+  font-size: 24px;
+}
+
+.logo, .hero-main{
+  color: #F9FAF8;
+}
+
+  
