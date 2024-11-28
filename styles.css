@@ -4,6 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto';
+  
 }
 
 .hero{
@@ -16,7 +17,7 @@ body {
 .hero-left {
   display: flex;
   flex-direction: column;
-  flex: auto;
+  flex: 1;
   max-width: 450px;
   max-height: 250px;
   justify-content: flex-start;
@@ -25,8 +26,8 @@ body {
 }
 
 .hero-right{
-  max-width: 500px;
-  max-height: 250px;
+  max-width: 1000px;
+  max-height: 300px;
 }
 
 .header{
@@ -86,24 +87,86 @@ button {
   display:flex;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 75px;
 }
 .items {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .title{
-  padding: 25px 0px;
+  padding: 50px 0px;
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
 }
 img {
+  min-width: 100px;
+  min-height: 100px;
   max-width: 200px;
-  max-height: 200px;
+  max-width: 200px;
 }
 
 .item {
-  max-width: 200px;
+  min-width: 100px;
 }
+
+.body2{
+  background-color: #E5E7EB;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 0px;
+}
+
+.author{
+  text-align: end;
+  font-weight: 700;
+  width: 600px;
+  max-width: 600px;
+  font-size: 20px;
+}
+
+.quote{
+  text-align: start;
+  max-width: 615px;
+  margin: 0px;
+  font: 36px light italic;
+}
+
+
+.body3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call-to-action{
+  display: flex;
+  background-color: #3882f6;
+  margin: 75px 0px;
+  padding: 25px;
+  border-radius: 6px;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.action{
+  color:#F9FAF8;
+  font-size: 16px;
+}
+
+.call .hero-sub{
+  font-size: 12px;
+}
+
+.call-to-action button{
+  margin-right: 75px;
+  border-color:#F9FAF8
+}
+
+
+
+
 
