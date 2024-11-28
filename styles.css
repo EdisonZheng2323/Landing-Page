@@ -60,7 +60,7 @@ a{
   font-size: 18px;
 }
 
-.hero-sub {
+.hero-sub, .footer {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -150,11 +150,13 @@ img {
   border-radius: 6px;
   justify-content: space-between;
   gap: 100px;
+  padding-left: 75px;
 }
 
 .action{
   color:#F9FAF8;
   font-size: 16px;
+  font-weight: 900;
 }
 
 .call .hero-sub{
@@ -165,6 +167,17 @@ img {
   margin-right: 75px;
   border-color:#F9FAF8
 }
+
+.footer{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
 
 
 
